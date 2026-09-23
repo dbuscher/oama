@@ -170,7 +170,6 @@ storeSecret label attribute value secret = do
          "-l", label,
          "-a", value,
          "-s", attribute,
-         "-T", "/usr/bin/security",
          "-U",
          "-w", secret
         ]
